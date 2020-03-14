@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import "./App.css";
 
 function App() {
+
   return (
     <div>
       <div className="App">
@@ -16,7 +17,6 @@ function App() {
           <SubHeader />
         </div>
         <header className="App-header">
-          {/* <img src={logo} className="App-logo" alt="logo" /> */}
           <button className="btn">
             <span className="gothic">
               <a

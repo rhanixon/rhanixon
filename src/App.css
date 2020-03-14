@@ -9,6 +9,26 @@
     text-decoration : none; color : #000;
   }
 
+  a.one:hover {
+    color:  #ff5a81;
+  }
+
+  a.two:hover {
+    color: #00afd7;
+  }
+
+  a.three:hover {
+    color:  #753BBD;
+  }
+
+  a.four:hover {
+    color:  #EF3340
+  }
+
+  a.btn:hover {
+    color:  #00cfb5;
+  }
+
 .App {
   text-align: center;
 }
