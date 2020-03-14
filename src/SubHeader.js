@@ -16,7 +16,7 @@ export default class SubHeader extends Component {
 
           <a href="tel:+1 (202) 368-0011">
             <img className="logo" src={phone} alt="" />
-            <span className="gothic-nav"> +1 (202) 368-0011    </span>
+            <span className="gothic-nav-phone"> +1 (202) 368-0011    </span>
           </a>
 
           <a href="https://www.linkedin.com/in/bobby-nixon/">

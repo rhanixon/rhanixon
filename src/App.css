@@ -38,6 +38,12 @@
   font-size: 20pt;
 }
 
+.gothic-nav-phone {
+  font-family: 'Franklin Gothic Regular';
+  margin-right: 50px;
+  font-size: 18pt;
+}
+
 .gothic-foot {
   font-family: 'Franklin Gothic Regular';
   padding-top: 20px;
@@ -88,7 +94,7 @@ h1 {
 }
 
 .Header {
-  padding-top: 10px;
+  padding-top: 100px;
   padding-left: 40px;
   display: flex;
   flex-direction: column;
