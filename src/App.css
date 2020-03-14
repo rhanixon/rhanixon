@@ -38,6 +38,13 @@
   font-size: 20pt;
 }
 
+.gothic-foot {
+  font-family: 'Franklin Gothic Regular';
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20pt;
+}
+
 .btn {
   color: black
 }
