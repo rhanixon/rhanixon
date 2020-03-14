@@ -1,6 +1,5 @@
 import React from "react";
-// import {download} from 'react-mdl'
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import Header from "./Header";
 import SubHeader from "./SubHeader";
 import Footer from "./Footer";
@@ -17,7 +16,7 @@ function App() {
           <SubHeader />
         </div>
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          {/* <img src={logo} className="App-logo" alt="logo" /> */}
           <button className="btn">
             <span className="gothic">
               <a
