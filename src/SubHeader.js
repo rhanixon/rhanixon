@@ -9,9 +9,11 @@ export default class SubHeader extends Component {
         return (
         <div>
         <div className="box">
-            <a href="mailto:rhanixon1@gmail.com">
+        <a href='mail&#116;&#111;&#58;r%&#54;&#56;an%69&#120;%6&#70;n1&#64;g&#109;&#97;i%&#54;C&#46;com'>
+        <script type="text/javascript" language="javascript">
+      </script><noscript>Sorry, you need Javascript on to email me.</noscript>
             <img className="mail-logo" src={email} alt=""/>
-            <span className="gothic"> rhanixon1@gmail.com</span>
+            <span className="gothic"> rhani&#120;on1&#64;gm&#97;il&#46;c&#111;m</span>
           </a>
         </div>
         <div className="box">
