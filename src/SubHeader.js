@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React, { Component } from "react";
 import linkedin from "./linkedin.png";
 import github from "./github.svg";
