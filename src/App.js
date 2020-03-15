@@ -1,12 +1,12 @@
 import React from "react";
-// import logo from "./logo.svg";
 import Header from "./Header";
 import SubHeader from "./SubHeader";
+import Bio from "./Bio";
+import Portfolio from "./Portfolio";
 import Footer from "./Footer";
 import "./App.css";
 
 function App() {
-
   return (
     <div>
       <div className="App">
@@ -17,6 +17,9 @@ function App() {
           <SubHeader />
         </div>
         <header className="App-header">
+          <div className="bio" id="bio">
+            <Bio />
+          </div>
           <button className="btn">
             <span className="gothic">
               <a
@@ -28,6 +31,9 @@ function App() {
             </span>
           </button>
         </header>
+        <div className="portfolio" id="portfolio">
+          <Portfolio />
+        </div>
         <div className="Footer">
           <Footer />
         </div>

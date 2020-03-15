@@ -9,12 +9,16 @@
     text-decoration : none; color : #000;
   }
 
+  a.zero:hover {
+    color:  #00afd7;
+  }
+
   a.one:hover {
     color:  #ff5a81;
   }
 
   a.two:hover {
-    color: #00afd7;
+    color: #10d31a;
   }
 
   a.three:hover {
@@ -22,11 +26,11 @@
   }
 
   a.four:hover {
-    color:  #EF3340
+    color:  rgb(240, 11, 26)
   }
 
   a.btn:hover {
-    color:  #00cfb5;
+    color:  #08efff;
   }
 
 .App {
@@ -110,12 +114,17 @@
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 70px;
 }
+
+h2 {
+  font-size: 50px;
+}
+
 
 .Header {
   padding-top: 100px;
-  padding-left: 40px;
+  padding-left: 200px;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -128,7 +137,7 @@ h1 {
 .SubHeader {
   display: flex;
   flex-direction: row;
-  padding-left: 43px;
+  padding-left: 200px;
   padding-bottom: 20px;
   align-items: left;
   text-align: left;
@@ -167,4 +176,88 @@ h1 {
 
 .space {
   margin-right: 40pxz;
+}
+
+.bio {
+  align-items: left;
+}
+
+.bio-container {
+  display: flex; /* or inline-flex */
+  flex-direction: column;
+  align-content: left;
+  padding-left: 200px;
+  padding-bottom: 80px;
+  padding-right: 200px;
+}
+
+.bio-header {
+  font-family: 'Franklin Gothic Regular';
+  align-items: left;
+  text-align: left;
+  justify-content: left;
+  padding-right: 50px;
+  padding-left: 0px;
+}
+
+.bio-item {
+  font-family: 'Franklin Gothic Regular';
+  align-items: left;
+  text-align: left;
+  justify-content: left;
+  padding-right: 50px;
+  padding-left: 20px;
+}
+
+.boxed {
+  border: 3px solid white ;
+}
+
+
+.portfolio {
+  align-items: left;
+}
+
+.portfolio-container {
+  display: flex; /* or inline-flex */
+  flex-direction: column;
+  align-content: left;
+  padding-top: 300px;
+  padding-left: 200px;
+  padding-bottom: 100px;
+  padding-right: 200px;
+}
+
+.portfolio-header {
+  font-family: 'Franklin Gothic Regular';
+  align-items: left;
+  text-align: left;
+  justify-content: left;
+  padding-right: 50px;
+  padding-left: 0px;
+}
+
+.p-item {
+  font-family: 'Franklin Gothic Regular';
+  align-items: left;
+  text-align: left;
+  justify-content: left;
+  padding-right: 50px;
+  padding-left: 20px;
+}
+
+.boxed2 {
+  border: 3px solid black ;
+}
+
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
 }
