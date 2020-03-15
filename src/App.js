@@ -30,6 +30,11 @@ function App() {
               </a>
             </span>
           </button>
+          <div>
+            <a data-scroll href="#portfolio">
+              <div class="arrow"></div>
+            </a>
+          </div>
         </header>
         <div className="portfolio" id="portfolio">
           <Portfolio />
