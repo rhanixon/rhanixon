@@ -9,7 +9,7 @@ export default class Bio extends Component {
           </div>
           <div className="boxed">
           <div className="bio-item">
-            <p className="oneandquarter">I am a full stack software engineer based in Manhattan. I have a background in math who came to programming from quantitative finance. I am a passionate problem solver with an appreciation for design. When I'm not programming I love to spend my time on the ocean whether it be surfing or sailing. You can check out some of my projects below.</p>
+            <p className="oneandquarter">I am a full stack software engineer based in Manhattan. I have a background in math and came to programming from quantitative finance. I am a passionate problem solver with an appreciation for design. When I'm not programming I love to spend my time on the ocean whether it be surfing or sailing. You can check out some of my projects below.</p>
           </div>
         </div>
       </div>
