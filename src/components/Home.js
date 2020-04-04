@@ -4,9 +4,7 @@ import React from "react";
 import Header from "./Header";
 import SubHeader from "./SubHeader";
 import Bio from "./Bio";
-import Portfolio from "./Portfolio";
-import Writing from "./Writing";
-import Footer from "./Footer";
+
 import "../style/App.css";
 
 class Home extends React.Component {
@@ -35,21 +33,11 @@ class Home extends React.Component {
               </span>
             </button>
             <div>
-              <a data-scroll href="#portfolio">
+              <a data-scroll href="/Portfolio">
                 <div className="arrow"></div>
               </a>
             </div>
           </header>
-          <div className="portfolio" id="portfolio">
-            <Portfolio />
-          </div>
-          <div className="writing" id="writing">
-            <Writing />
-          </div>
-        </div>
-
-        <div className="Footer">
-          <Footer />
         </div>
       </div>
     );

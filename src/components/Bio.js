@@ -15,7 +15,8 @@ export default class Bio extends Component {
               finance. I am a passionate problem solver with an appreciation for
               design. When I'm not programming I like to spend my time on the
               ocean, wether it be surfing, sailing, or scuba diving. You can
-              check out some of my projects and writing below.
+              check out some of my projects and writing by clicking my name or
+              the arrow below.
             </p>
           </div>
         </div>

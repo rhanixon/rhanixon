@@ -5,7 +5,7 @@ export default class Header extends Component {
     return (
       <div>
         <span className="gothic">
-          <a className="zero" href="#portfolio">
+          <a className="zero" hfre="/Portfolio">
             <h1>Bobby Nixon</h1>
           </a>
         </span>
