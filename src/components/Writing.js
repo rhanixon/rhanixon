@@ -19,15 +19,15 @@ export default class Writing extends Component {
               a real-time, multi-player, cross-platform mobile application based
               on the New York Times Spelling Bee - we ran into an interesting
               problem. Given a dictionary containing all the words in the
-              english language, generate all possible solutions for all possible
+              English language, generate all possible solutions for all possible
               puzzles in our game. At first glance this problem may seem
               trivial. But things start to get crazy when you factor in the fact
               that there are 4,604,600 possible puzzles each of which may
               contain as many as 1,000 valid words. Our first pass at solving
-              the problem itterativley would have taken over 6 hours to run if
-              we were willing to subject our computers to that kidn of torture.
-              So the question quickly became: how can we possibly make this
-              faster? And after that, how fast can we possibly make this thing?
+              the problem iteratively would have taken over 6 hours to run if we
+              were willing to subject our computers to that kind of torture. So
+              the question quickly became: how can we possibly make this faster?
+              And after that, how fast can we possibly make this thing?
             </h3>
             <a className="zero" href="#fast">
               <h3 className="black-bg">
