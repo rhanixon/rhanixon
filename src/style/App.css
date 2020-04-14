@@ -166,7 +166,7 @@ h2 {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .Footer {
@@ -255,7 +255,7 @@ h2 {
   align-content: left;
   padding-top: 100px;
   padding-left: 200px;
-  padding-bottom: 220px;
+  /* padding-bottom: 220px; */
   padding-right: 200px;
 }
 
@@ -267,7 +267,7 @@ h2 {
   padding-left: 200px;
   padding-bottom: 220px;
   padding-right: 200px;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
 }
 
 .portfolio-header {
@@ -352,7 +352,7 @@ i {
   align-content: center;
   padding-top: 0px;
   padding-left: 48.5%;
-  padding-bottom: 220px;
+  /* padding-bottom: 220px; */
   /* padding-right: 200px; */
 }
 
@@ -368,4 +368,86 @@ i {
 
 .oneandquarter {
   line-height: 1.25em;
+}
+
+/* react-burger-menu */
+
+#page-wrap {
+  text-align: center;
+
+  /* Prevent sidebar from showing a scrollbar on page */
+  overflow: auto;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  align-items: left;
+  /* Our sidebar item styling */
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #ffffff;
+  transition: color 0.2s;
+}
+
+/* Change color on hover */
+.bm-item:hover {
+  color: #00afd7;
+  text-decoration: none;
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  text-decoration: none;
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #000000;
+  text-decoration: none;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 50px;
+  width: 50px;
+  text-decoration: none;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #ffffff;
+  text-decoration: none;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #000000;
+  padding: 2.5em 1.5em 0;
+  font-family: "Franklin Gothic Regular";
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+  text-decoration: none;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+  text-decoration: none;
 }

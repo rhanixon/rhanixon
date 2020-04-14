@@ -4,13 +4,14 @@ import React from "react";
 import Header from "./Header";
 import SubHeader from "./SubHeader";
 import Bio from "./Bio";
-
+import Sidebar from "./Sidebar";
 import "../style/App.css";
 
 class Home extends React.Component {
   render() {
     return (
       <div>
+        <Sidebar />
         <div className="App">
           <div className="Header">
             <Header />
@@ -33,7 +34,7 @@ class Home extends React.Component {
               </span>
             </button>
             <div>
-              <a data-scroll href="/Portfolio">
+              <a href="/Portfolio">
                 <div className="arrow"></div>
               </a>
             </div>

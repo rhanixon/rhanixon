@@ -9,6 +9,7 @@
     "build": "^0.1.4",
     "file-saver": "^2.0.2",
     "react": "^16.13.0",
+    "react-burger-menu": "^2.6.13",
     "react-dom": "^16.13.0",
     "react-download-link": "^2.2.0",
     "react-mdl": "^2.1.0",
