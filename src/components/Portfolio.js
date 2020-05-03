@@ -66,6 +66,24 @@ export default class Portfolio extends Component {
                   Source Code <i className="right"></i>
                 </h3>
               </a>
+              <h2>Sodoku</h2>
+              <h3 className="oneandquarter">
+                A fully functional mobile friendly progressive web app to play
+                sodoku created using TypeScript, React, and Redux. The
+                motivation for this project was to learn more about backtracking
+                algorithms and NP-Completeness. Play a game yourself and see
+                what you think.
+              </h3>
+              <a className="one" href="https://ts-sodoku.herokuapp.com/">
+                <h3>
+                  Check it out <i className="right"></i>
+                </h3>
+              </a>
+              <a className="three" href="https://github.com/rhanixon/Sodoku">
+                <h3>
+                  Source Code <i className="right"></i>
+                </h3>
+              </a>
             </div>
           </div>
           <div className="arrow-container">

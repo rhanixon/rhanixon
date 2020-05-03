@@ -270,6 +270,30 @@ h2 {
   background-color: rgb(255, 255, 255);
 }
 
+/* .boxed2 {
+  border: 3px solid black;
+} */
+
+.sodoku-container {
+  display: flex; /* or inline-flex */
+  flex-direction: column;
+  align-content: left;
+  padding-top: 220px;
+  padding-left: 750px;
+  padding-right: 750px;
+  padding-bottom: 220px;
+  background-color: rgb(255, 255, 255);
+}
+
+.sodoku-header {
+  font-family: "Franklin Gothic Regular";
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-right: 50px;
+  padding-left: 0px;
+}
+
 .portfolio-header {
   font-family: "Franklin Gothic Regular";
   align-items: left;
@@ -450,4 +474,39 @@ i {
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
   text-decoration: none;
+}
+
+#title {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+#board {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+#board td,
+#board th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#board tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#board tr:hover {
+  background-color: #ddd;
+}
+
+#board th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4caf50;
+  color: white;
 }

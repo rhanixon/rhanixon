@@ -9,7 +9,7 @@ export default class Writing extends Component {
   render() {
     return (
       <div>
-        <Sidebar style="BurgerBlack.css" />
+        <Sidebar style={"BurgerBlack.css"} />
         <div className="writing-container">
           <div className="bio-header">
             <h1>Writing</h1>
