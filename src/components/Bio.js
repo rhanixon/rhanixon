@@ -14,7 +14,7 @@ export default class Bio extends Component {
               I have a background in math and came to programming from
               quantitative finance. In March of 2020 I completed the Fullstack
               Academy bootcamp program. When I'm not programming I like to spend
-              my time on the ocean, wether it be surfing, sailing, or scuba
+              my time on the ocean, whether it be surfing, sailing, or scuba
               diving. You can check out some of my projects and writing by
               clicking my name or the arrow below.
             </p>
