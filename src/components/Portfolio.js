@@ -86,11 +86,11 @@ export default class Portfolio extends Component {
               </a>
             </div>
           </div>
-          <div className="arrow-container">
-            <a data-scroll href="/Writing">
-              <div className="arrow-black"></div>
-            </a>
-          </div>
+//           <div className="arrow-container">
+//             <a data-scroll href="/Writing">
+//               <div className="arrow-black"></div>
+//             </a>
+//           </div>
         </div>
       </div>
     );
