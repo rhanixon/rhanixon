@@ -12,8 +12,8 @@ export default class Bio extends Component {
             <p className="oneandquarter">
               Bootcamp grad and software engineer at Bloomberg LP in New York.
               I have a background in math and came to programming from
-              quantitative finance. You can check out some of my projects and writing by
-              clicking my name or the arrow below.
+              quantitative finance. You can check out some of my projects by
+              clicking the arrow below.
             </p>
           </div>
         </div>
