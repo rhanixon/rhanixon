@@ -33,11 +33,11 @@ class Home extends React.Component {
                 </a>
               </span>
             </button>
-            <div>
+            {/* <div>
               <a href="/Portfolio">
                 <div className="arrow"></div>
               </a>
-            </div>
+            </div> */}
           </header>
         </div>
       </div>

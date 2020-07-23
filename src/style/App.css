@@ -161,6 +161,7 @@ h2 {
 
 .btn {
   background-color: black;
+  border-color: #ffffff;
   color: white;
   padding: 5px 10px;
   text-align: center;
@@ -255,7 +256,7 @@ h2 {
   align-content: left;
   padding-top: 100px;
   padding-left: 200px;
-  /* padding-bottom: 220px; */
+  padding-bottom: 220px;
   padding-right: 200px;
 }
 
@@ -347,6 +348,13 @@ i {
   -webkit-transform: rotate(-45deg);
 }
 
+.right_white {
+  border-style: solid;
+  border-color: white;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
 .arrow {
   box-sizing: border-box;
   height: 2.5vw;
@@ -392,6 +400,15 @@ i {
 
 .oneandquarter {
   line-height: 1.25em;
+}
+
+.port_link {
+  font-family: "Franklin Gothic Regular";
+  align-items: right;
+  text-align: right;
+  justify-content: right;
+  padding-right: 40px;
+  padding-left: 0px;
 }
 
 /* react-burger-menu */
