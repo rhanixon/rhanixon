@@ -8,9 +8,9 @@ export default (props) => {
         Home
       </a>
 
-      <a className="menu-item" href="/Writing">
-        Writing
-      </a>
+//       <a className="menu-item" href="/Writing">
+//         Writing
+//       </a>
 
       <a className="menu-item" href="/Portfolio">
         Portfolio
